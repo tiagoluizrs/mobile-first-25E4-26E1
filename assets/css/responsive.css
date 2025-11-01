@@ -1,0 +1,118 @@
+/* Breakpoint oficial */
+@media (min-width: 480px) {}
+
+/* Breakpoint oficial */
+@media (min-width: 768px) {
+    .news__caption h3 {
+        font-size: var(--font-25px);
+    }   
+}
+
+/* Breakpoint customizado */
+@media (min-width: 820px) {
+    .news__title {
+        font-size: var(--font-36px);
+    }
+}
+
+/* Breakpoint oficial */
+@media (min-width: 998px) {
+    .menu__list {
+        flex-direction: row;
+    }
+    .menu--close {
+        display: flex;
+    }
+    .menu__button {
+        display: none;
+    }
+    header .logo{
+        width: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: inherit;
+        margin-left: 0;
+    }
+    header .menu {
+        margin-left: 8em;
+    }
+    .menu__item a {
+        padding: 1px;
+    }
+
+    header .links.links--desktop {
+        padding-top: 2.1rem;
+        padding-bottom: 1.2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    header .links.links--desktop div a{
+        display: inline-block;
+    }
+
+    header .links.links--desktop div a {
+        display: inline-block;
+    }
+
+    header a.links__texto{
+        font-size: var(--font-25px);
+        padding: 10px;
+    }
+
+    header .links.links--desktop .links__seja_socio {
+        flex-grow: 1;
+    }
+
+    header .links.links--desktop .links__seja_socio a{
+        margin-left: 5em;
+    }
+
+    header .links.links--desktop .links__nacao {
+        flex-grow: 1;
+    }
+
+    header .links.links--desktop .links__nacao a{
+        margin-right: 6em;
+    }
+
+    header .links.links--desktop div .links__betano {
+        height: 22px;
+    }
+
+    header .links.links--desktop div .links__betano img {
+        height: 100%;
+    }
+
+    .links--desktop .links__third_part {
+        flex-grow: 4;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header .links--desktop.links div a.links__betano:hover img, header .links--desktop.links div a.links__adidas:hover img {
+        filter: invert(100%);
+    }
+
+    .links.links--mobile {
+        display: none;
+    }
+    .links.links--desktop {
+        display: flex;
+    }
+
+    header .logo{
+        width: 100px;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+}
+
+/* Breakpoint oficial */
+@media (min-width: 1280px) {}
