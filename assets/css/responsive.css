@@ -6,6 +6,13 @@
     .news__caption h3 {
         font-size: var(--font-25px);
     }   
+    .banners__caption h3 {
+        font-size: var(--font-18px);
+    }
+
+    .banners__caption p {
+        font-size: var(--font-13px);
+    }
 }
 
 /* Breakpoint customizado */
@@ -111,6 +118,23 @@
 
     .container {
         flex-direction: row;
+    }
+
+    .banners__caption h3 {
+        font-size: var(--font-24px);
+    }
+
+    .banners__caption p {
+        font-size: var(--font-18px);
+    }
+
+    .banners__caption div span {
+        font-size: var(--font-13px);
+    }
+
+    .banners__caption div {
+        max-width: 70%;
+        margin: 0 auto;
     }
 }
 

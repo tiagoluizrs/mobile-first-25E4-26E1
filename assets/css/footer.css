@@ -1,12 +1,26 @@
-/* footer {
-  .logo {
-    width: 50px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+footer > div{
+  padding: 3rem;
+}
 
-    img {
-      width: 100%;
-    }
-  }
-} */
+div.footer--red {
+  background-color: var(--color-primary);
+}
+
+.footer__item > div {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer__item > div h4 {
+  color: #fff;
+  font-size: var(--font-22px);
+  line-height: 1.38;
+  font-weight: bold;
+  font-family: Rajdhani, sans-serif;
+}
+
+.footer__item > div ul li {
+  color: #fff;
+  font-size: var(--font-16px);
+}
