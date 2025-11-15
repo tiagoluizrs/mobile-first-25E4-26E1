@@ -1,0 +1,27 @@
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Rajdhani, sans-serif;
+}
+
+:root {
+    --color-primary: #d2232a;
+    --color-secondary: #000000;
+    --color-tertiary: #92181d;
+    --color-quaternary: #bc1f26;
+    --font-8px: 0.5em;
+    --font-10px: 0.625em;
+    --font-13px: 0.8125em;
+    --font-14px: 0.875em;
+    --font-15px: 0.9375em;
+    --font-16px: 1em;
+    --font-18px: 1.125em;
+    --font-20px: 1.25em;
+    --font-22px: 1.375em;
+    --font-24px: 1.5em;
+    --font-25px: 1.5625em;
+    --font-36px: 2.25em;
+}

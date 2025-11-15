@@ -1,0 +1,195 @@
+header>div.header--red {
+    background-color: var(--color-primary);
+}
+
+header>div.header--black {
+    background-color: var(--color-secondary);
+}
+
+.links.links--mobile {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.links.links--mobile .links__third_part{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.links.links--mobile .links__third_part .links__group__logos_partners{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: .5em;
+    align-items: center;
+}
+
+.links.links--mobile .links__third_part .links__group__logos_partners a.links__betano {
+    height: 22px;
+}
+
+.links.links--mobile .links__third_part .links__group__logos_partners a.links__betano img {
+    height: 100%;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+.social-links .social-links__item a {
+    color: #000;
+}
+
+.links__third_part .social-links {
+    margin-left: .5em;
+    margin-top: .8em;
+}
+
+.links.links--mobile .links__texto_group{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.links.links--mobile .links__seja_socio{
+    margin-left: 1em;
+}
+
+.links.links--mobile .links__nacao {
+    margin-right: 1em;
+}
+
+.links--desktop {
+    display: none;
+}
+
+header .logo{
+    width: 70px;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+header .logo img {
+    width: 100%;
+}
+
+header a.links__texto{
+    color: #fff;
+    font-weight: 900;
+    font-size: var(--font-15px);
+    text-decoration: none;
+    background-color: var(--color-quaternary);
+    box-sizing: border-box;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
+header a.links__texto:hover {
+    text-decoration: underline;
+    background-color: var(--color-tertiary);
+}
+
+/* Breakpoint oficial */
+@media (min-width: 480px) {}
+
+/* Breakpoint oficial */
+@media (min-width: 768px) {
+
+}
+
+/* Breakpoint customizado */
+@media (min-width: 820px) {
+
+}
+
+/* Breakpoint oficial */
+@media (min-width: 998px) {
+    header .logo{
+        width: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: inherit;
+        margin-left: 0;
+    }
+
+    header .links.links--desktop {
+        padding-top: 2.1rem;
+        padding-bottom: 1.2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    header .links.links--desktop div a{
+        display: inline-block;
+    }
+
+    header .links.links--desktop div a {
+        display: inline-block;
+    }
+
+    header a.links__texto{
+        font-size: var(--font-25px);
+        padding: 10px;
+    }
+
+    header .links.links--desktop .links__seja_socio {
+        flex-grow: 1;
+    }
+
+    header .links.links--desktop .links__seja_socio a{
+        margin-left: 5em;
+    }
+
+    header .links.links--desktop .links__nacao {
+        flex-grow: 1;
+    }
+
+    header .links.links--desktop .links__nacao a{
+        margin-right: 6em;
+    }
+
+    header .links.links--desktop div .links__betano {
+        height: 22px;
+    }
+
+    header .links.links--desktop div .links__betano img {
+        height: 100%;
+    }
+
+    .links--desktop .links__third_part {
+        flex-grow: 4;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    header .links--desktop.links div a.links__betano:hover img, header .links--desktop.links div a.links__adidas:hover img {
+        filter: invert(100%);
+    }
+
+    .links.links--mobile {
+        display: none;
+    }
+    .links.links--desktop {
+        display: flex;
+    }
+}
+
+/* Breakpoint oficial */
+@media (min-width: 1280px) {}

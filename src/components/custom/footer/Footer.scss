@@ -1,0 +1,42 @@
+footer > div{
+  padding: 3rem;
+}
+
+div.footer--red {
+  background-color: var(--color-primary);
+}
+
+.footer__item > div {
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer__item > div h4 {
+  color: #fff;
+  font-size: var(--font-22px);
+  line-height: 1.38;
+  font-weight: bold;
+  font-family: Rajdhani, sans-serif;
+}
+
+/* Breakpoint oficial */
+@media (min-width: 480px) {}
+
+/* Breakpoint oficial */
+@media (min-width: 768px) {
+
+}
+
+/* Breakpoint customizado */
+@media (min-width: 820px) {
+
+}
+
+/* Breakpoint oficial */
+@media (min-width: 998px) {
+    
+}
+
+/* Breakpoint oficial */
+@media (min-width: 1280px) {}

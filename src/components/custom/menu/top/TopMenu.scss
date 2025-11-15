@@ -1,0 +1,83 @@
+header .menu {
+    width: 100%;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px 0;
+    margin: 0;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    transition: opacity 0.3s;
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+    padding: 5px;
+}
+
+.menu__item a:hover, .menu__item.menu__item--active a{
+    color: var(--color-primary);
+}
+
+.menu--open {
+    display: flex;
+}
+
+.menu--close {
+    display: none;
+}
+
+.menu__button {
+    display: block;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    border: none;
+    text-align: left;
+    padding: 1em 0;
+    cursor: pointer;
+}
+
+/* Breakpoint oficial */
+@media (min-width: 480px) {}
+
+/* Breakpoint oficial */
+@media (min-width: 768px) {
+
+}
+
+/* Breakpoint customizado */
+@media (min-width: 820px) {
+
+}
+
+/* Breakpoint oficial */
+@media (min-width: 998px) {
+    header .menu {
+        margin-left: 8em;
+    }
+    .menu__list {
+        flex-direction: row;
+    }
+    .menu--close {
+        display: flex;
+    }
+    .menu__button {
+        display: none;
+    }
+    .menu__item a {
+        padding: 1px;
+    }
+}
+
+/* Breakpoint oficial */
+@media (min-width: 1280px) {}
