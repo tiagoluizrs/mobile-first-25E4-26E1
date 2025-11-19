@@ -15,8 +15,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "npm run build && firebase deploy"
+    "build": "react-scripts build"
   },
   "dependencies": {
     "react": "19.1.1",

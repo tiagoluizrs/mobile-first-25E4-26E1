@@ -1,6 +1,4 @@
-import {
-    MenuBottom
-} from '../..';
+import BottomMenu from '../menu/bottom/BottomMenu';
 import styles from './Footer.module.scss';
 
 const Footer = () => {
@@ -11,7 +9,7 @@ const Footer = () => {
                     <div className={`col col-xs-12 col-md-6 ${styles.footer__item}`}>
                         <div>
                             <h4>Sede Gávea</h4>
-                            <MenuBottom 
+                            <BottomMenu 
                                 items={[
                                     { label: 'Av. Borges de Medeiros, 997' },
                                     { label: 'Lagoa - Rio de Janeiro/RJ' },
@@ -23,7 +21,7 @@ const Footer = () => {
                     <div className={`col col-xs-12 col-md-6 ${styles.footer__item}`}>
                         <div>
                             <h4>Sede Gávea</h4>
-                            <MenuBottom 
+                            <BottomMenu 
                                 items={[
                                     { label: 'CT George Helal' },
                                     { label: 'Vargem Grande - Rio de Janeiro/RJ' },

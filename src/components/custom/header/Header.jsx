@@ -2,7 +2,7 @@ import styles from './Header.module.scss';
 import LogoBetano from '../../../assets/img/logos/logo_betano_30.webp';
 import LogoAdidas from '../../../assets/img/logos/logo-adidas.webp';
 import LogoMenuMd from '../../../assets/img/logos/logo-menu-md.webp';
-import { MenuTop } from '../..';
+import TopMenu from '../menu/top/TopMenu.jsx';
 
 const Header = () => {
     return <header>
@@ -128,7 +128,7 @@ const Header = () => {
                             <a href="/index.html" className={styles.logo}>
                                 <img className={styles.logo__image} src={LogoMenuMd} alt=""/>
                             </a>
-                            <MenuTop
+                            <TopMenu
                                 items={[
                                     { label: 'Futebol',  url: '#' },
                                     { label: 'Ingressos',  url: '#' },
