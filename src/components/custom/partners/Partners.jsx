@@ -1,4 +1,4 @@
-import './Partners.scss';
+import './Partners.module.scss';
 
 const Partners = () => {
     return <>Partners</>

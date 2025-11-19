@@ -1,12 +1,12 @@
-header>div.header--red {
+header>div.headerRed {
     background-color: var(--color-primary);
 }
 
-header>div.header--black {
+header>div.headerBlack {
     background-color: var(--color-secondary);
 }
 
-.links.links--mobile {
+.linksMobile {
     width: 100%;
     flex-direction: column;
     display: flex;
@@ -14,14 +14,14 @@ header>div.header--black {
     padding-bottom: 1.5em;
 }
 
-.links.links--mobile .links__third_part{
+.linksMobile .links__third_part{
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
 }
 
-.links.links--mobile .links__third_part .links__group__logos_partners{
+.linksMobile .links__third_part .links__group__logos_partners{
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -29,31 +29,31 @@ header>div.header--black {
     align-items: center;
 }
 
-.links.links--mobile .links__third_part .links__group__logos_partners a.links__betano {
+.linksMobile .links__third_part .links__group__logos_partners a.links__betano {
     height: 22px;
 }
 
-.links.links--mobile .links__third_part .links__group__logos_partners a.links__betano img {
+.linksMobile .links__third_part .links__group__logos_partners a.links__betano img {
     height: 100%;
 }
 
-.social-links{
+.socialLinks{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-left: 0;
 }
 
-.social-links .social-links__item a {
+.socialLinks .socialLinks__item a {
     color: #000;
 }
 
-.links__third_part .social-links {
+.links__third_part .socialLinks {
     margin-left: .5em;
     margin-top: .8em;
 }
 
-.links.links--mobile .links__texto_group{
+.links__texto_group{
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -61,19 +61,19 @@ header>div.header--black {
     margin-top: 2em;
 }
 
-.links.links--mobile .links__seja_socio{
+.links__seja_socio{
     margin-left: 1em;
 }
 
-.links.links--mobile .links__nacao {
+.links__nacao {
     margin-right: 1em;
 }
 
-.links--desktop {
+.linksDesktop {
     display: none;
 }
 
-header .logo{
+.logo{
     width: 70px;
     position: absolute;
     top: -70px;
@@ -81,11 +81,11 @@ header .logo{
     margin-left: -35px;
 }
 
-header .logo img {
+.logo img {
     width: 100%;
 }
 
-header a.links__texto{
+.links__texto{
     color: #fff;
     font-weight: 900;
     font-size: var(--font-15px);
@@ -97,7 +97,7 @@ header a.links__texto{
 }
 
 
-header a.links__texto:hover {
+.links__texto:hover {
     text-decoration: underline;
     background-color: var(--color-tertiary);
 }
@@ -117,7 +117,7 @@ header a.links__texto:hover {
 
 /* Breakpoint oficial */
 @media (min-width: 998px) {
-    header .logo{
+    .logo{
         width: 100px;
         position: absolute;
         bottom: 0;
@@ -126,7 +126,7 @@ header a.links__texto:hover {
         margin-left: 0;
     }
 
-    header .links.links--desktop {
+    .linksDesktop {
         padding-top: 2.1rem;
         padding-bottom: 1.2rem;
         display: flex;
@@ -135,58 +135,58 @@ header a.links__texto:hover {
         width: 100%;
     }
 
-    header .links.links--desktop div a{
+    .linksDesktop div a{
         display: inline-block;
     }
 
-    header .links.links--desktop div a {
+    .linksDesktop div a {
         display: inline-block;
     }
 
-    header a.links__texto{
+    a.links__texto{
         font-size: var(--font-25px);
         padding: 10px;
     }
 
-    header .links.links--desktop .links__seja_socio {
+    .linksDesktop .links__seja_socio {
         flex-grow: 1;
     }
 
-    header .links.links--desktop .links__seja_socio a{
+    .linksDesktop .links__seja_socio a{
         margin-left: 5em;
     }
 
-    header .links.links--desktop .links__nacao {
+    .linksDesktop .links__nacao {
         flex-grow: 1;
     }
 
-    header .links.links--desktop .links__nacao a{
+    .linksDesktop .links__nacao a{
         margin-right: 6em;
     }
 
-    header .links.links--desktop div .links__betano {
+    .linksDesktop div .links__betano {
         height: 22px;
     }
 
-    header .links.links--desktop div .links__betano img {
+    .linksDesktop div .links__betano img {
         height: 100%;
     }
 
-    .links--desktop .links__third_part {
+    .linksDesktop .links__third_part {
         flex-grow: 4;
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
 
-    header .links--desktop.links div a.links__betano:hover img, header .links--desktop.links div a.links__adidas:hover img {
+    .linksDesktop.links div a.links__betano:hover img, .linksDesktop.links div a.links__adidas:hover img {
         filter: invert(100%);
     }
 
-    .links.links--mobile {
+    .linksMobile {
         display: none;
     }
-    .links.links--desktop {
+    .linksDesktop {
         display: flex;
     }
 }

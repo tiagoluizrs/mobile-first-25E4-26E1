@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './TopMenu.scss';
+import styles from'./TopMenu.module.scss';
 
 const TopMenu = (props) => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -9,14 +9,14 @@ const TopMenu = (props) => {
     }
 
     return  <>
-                <button type="button" className="menu__button" onClick={toggleMenu}>
+                <button type="button" className={styles.menu__button} onClick={toggleMenu}>
                     <i className="fa fa-bars"></i>
                 </button>
-                <nav className={`menu ${menuOpen ? 'menu--open' : 'menu--close'}`}>
-                    <ul className="menu__list">
+                <nav className={`${styles.menu} ${menuOpen ? styles.menuOpen : styles.menuClose}`}>
+                    <ul className={styles.menu__list}>
                         {
                             props.items && props.items.map((item, index) => {
-                                return <li className={`menu__item ${index == 0 ? 'menu__item--active' : ''}`}><a href={item.url}>{item.label}</a></li>;
+                                return <li key={`menu_item_${index}`} className={`${styles.menu__item} ${index == 0 ? styles.menu__itemActive : ''}`}><a href={item.url}>{item.label}</a></li>;
                             })
                         }
                     </ul>

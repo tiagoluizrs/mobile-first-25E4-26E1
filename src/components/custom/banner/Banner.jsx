@@ -1,4 +1,4 @@
-import './Banner.scss';
+import styles from './Banner.module.scss';
 import FutebolImg from '../../../assets/img/banners/futebol.webp';
 import BasqueteImg from '../../../assets/img/banners/basquete.webp';
 import BannerItem from './item/BannerItem';
@@ -19,12 +19,13 @@ const Banner = () => {
         }
     ]
 
-    return <div className="container-fluid banners">
+    return <div className={`container-fluid ${styles.banners}`}>
                 <div className="row">
                     {
                         bannerItems.map((item, index) => {
-                            return <div className="col col-xs-12 col-md-6 banners__item">
+                            return <div key={`banner_${index}`} className={`col col-xs-12 col-md-6 ${styles.banners__item}`}>
                                         <BannerItem
+                                            styles={styles}
                                             image={item.image}
                                             category={item.category}
                                             title={item.title}

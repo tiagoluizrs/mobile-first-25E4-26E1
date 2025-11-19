@@ -24,15 +24,15 @@ header .menu {
     padding: 5px;
 }
 
-.menu__item a:hover, .menu__item.menu__item--active a{
+.menu__item a:hover, .menu__item.menu__itemActive a{
     color: var(--color-primary);
 }
 
-.menu--open {
+.menuOpen {
     display: flex;
 }
 
-.menu--close {
+.menuClose {
     display: none;
 }
 
@@ -68,7 +68,7 @@ header .menu {
     .menu__list {
         flex-direction: row;
     }
-    .menu--close {
+    .menuClose {
         display: flex;
     }
     .menu__button {

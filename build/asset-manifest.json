@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a3fdf3e9.css",
+    "main.js": "/static/js/main.4a3c8403.js",
+    "static/media/institucional.webp": "/static/media/institucional.49607e84fefcf4ad6bcf.webp",
+    "static/media/futebol-feminino.webp": "/static/media/futebol-feminino.7e417cd4beb589172d10.webp",
+    "static/media/basquete.webp": "/static/media/basquete.70278da530e799206cbe.webp",
+    "static/media/futebol.webp": "/static/media/futebol.25ca75fa5d127dedd61c.webp",
+    "static/media/volei.webp": "/static/media/volei.9d68e296a061ef414ceb.webp",
+    "static/media/logo-menu-md.webp": "/static/media/logo-menu-md.2b5e723a28ffbddde1d9.webp",
+    "static/media/logo_betano_30.webp": "/static/media/logo_betano_30.31213b96a85d52dc597d.webp",
+    "index.html": "/index.html",
+    "static/media/logo-adidas.webp": "/static/media/logo-adidas.41cc9bb8c4a6aec6992f.webp",
+    "main.a3fdf3e9.css.map": "/static/css/main.a3fdf3e9.css.map",
+    "main.4a3c8403.js.map": "/static/js/main.4a3c8403.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3fdf3e9.css",
+    "static/js/main.4a3c8403.js"
+  ]
+}

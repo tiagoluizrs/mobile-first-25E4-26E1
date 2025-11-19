@@ -1,14 +1,14 @@
 import {
     MenuBottom
 } from '../..';
-import './Footer.scss';
+import styles from './Footer.module.scss';
 
 const Footer = () => {
     return <footer>
-        <div className="footer--red">
+        <div className={styles.footerRed}>
             <div className="container">
                 <div className="row">
-                    <div className="col col-xs-12 col-md-6 footer__item">
+                    <div className={`col col-xs-12 col-md-6 ${styles.footer__item}`}>
                         <div>
                             <h4>Sede Gávea</h4>
                             <MenuBottom 
@@ -20,7 +20,7 @@ const Footer = () => {
                             />
                         </div>
                     </div>
-                    <div className="col col-xs-12 col-md-6 footer__item">
+                    <div className={`col col-xs-12 col-md-6 ${styles.footer__item}`}>
                         <div>
                             <h4>Sede Gávea</h4>
                             <MenuBottom 

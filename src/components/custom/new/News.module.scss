@@ -41,7 +41,7 @@
     position: relative;
 }
 
-.news__figure .news__image {
+.news__image {
     height: auto;
     width: 100%;
 }
@@ -56,13 +56,13 @@
     bottom: 0;
 }
 
-.news__caption div {
+.news__caption_div {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 18px 26px;
     box-sizing: border-box;
 }
 
-.news__caption span {
+.news__caption_span {
     color: #fff;
     font-weight: 700;
     font-size: var(--font-16px);
@@ -74,7 +74,7 @@
     bottom: 10px;
     text-transform: uppercase;
 }
-.news__caption h3 {
+.news__caption_h3 {
     color: #fff;
     font-weight: 700;
     font-size: var(--font-18px);
@@ -82,7 +82,7 @@
     text-transform: uppercase;
 }   
 
-.news__caption p {
+.news__caption_p {
     color: #fff;
     font-weight: 400;
     font-size: var(--font-16px);
@@ -93,7 +93,7 @@
 
 /* Breakpoint oficial */
 @media (min-width: 768px) {
-    .news__caption h3 {
+    .news__caption_h3 {
         font-size: var(--font-25px);
     }
 }
