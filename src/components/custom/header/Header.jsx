@@ -3,10 +3,15 @@ import LogoBetano from '../../../assets/img/logos/logo_betano_30.webp';
 import LogoAdidas from '../../../assets/img/logos/logo-adidas.webp';
 import LogoMenuMd from '../../../assets/img/logos/logo-menu-md.webp';
 import TopMenu from '../menu/top/TopMenu.jsx';
+import { useTheme } from 'styled-components';
 
 const Header = () => {
+    const theme = useTheme();
+
     return <header>
-                <div className={styles.headerRed}>
+                <div className={styles.headerRed} style={{
+                    backgroundColor: theme.primaryColor
+                }}>
                     <div className="container">
                         <div className="row">
                             <nav className={styles.linksDesktop}>

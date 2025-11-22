@@ -2,11 +2,13 @@ import BottomMenu from '../menu/bottom/BottomMenu';
 import styles from './Footer.module.scss';
 
 const Footer = () => {
+    const { footerRed, footer__item } = styles;
+
     return <footer>
-        <div className={styles.footerRed}>
+        <div className={footerRed}>
             <div className="container">
                 <div className="row">
-                    <div className={`col col-xs-12 col-md-6 ${styles.footer__item}`}>
+                    <div className={`col col-xs-12 col-md-6 ${footer__item}`}>
                         <div>
                             <h4>Sede Gávea</h4>
                             <BottomMenu 
@@ -18,7 +20,7 @@ const Footer = () => {
                             />
                         </div>
                     </div>
-                    <div className={`col col-xs-12 col-md-6 ${styles.footer__item}`}>
+                    <div className={`col col-xs-12 col-md-6 ${footer__item}`}>
                         <div>
                             <h4>Sede Gávea</h4>
                             <BottomMenu 
