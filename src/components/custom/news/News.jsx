@@ -33,23 +33,17 @@ const News = () => {
             }
         ]
 
-    return <div className={`container-fluid ${styles.news}`}>
-                <div className="row">
-                    {
-                        bannerItems.map((item, index) => {
-                            return <div key={`new_${index}`} className={`col col-xs-12 col-md-6 ${styles.news__item}`}>
-                                        <New
-                                            styles={styles}
-                                            image={item.image}
-                                            category={item.category}
-                                            title={item.title}
-                                            description={item.description}
-                                        />
-                                    </div>
-                        })
-                    }
-                </div>
-            </div>
+    return bannerItems.map((item, index) => {
+                return <div key={`new_${index}`} className={`col col-xs-12 col-md-6 ${styles.news__item}`}>
+                            <New
+                                styles={styles}
+                                image={item.image}
+                                category={item.category}
+                                title={item.title}
+                                description={item.description}
+                            />
+                        </div>
+            })
 }
 
 export default News;
