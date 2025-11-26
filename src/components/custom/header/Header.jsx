@@ -1,7 +1,7 @@
 import styles from './Header.module.scss';
 import LogoBetano from '../../../assets/img/logos/logo_betano_30.webp';
 import LogoAdidas from '../../../assets/img/logos/logo-adidas.webp';
-import LogoMenuMd from '../../../assets/img/logos/logo-menu-md.webp';
+import LogoMenuMd from '../../../assets/img/logos/logo-regagtas.png';
 import TopMenu from '../menu/top/TopMenu.jsx';
 import { useTheme } from 'styled-components';
 
